@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #bfd1d9;
+    background-repeat: no-repeat;
+}
+.contaner {
+    width: 80%;
+    height: 100%;
+    margin: auto auto;
+    margin-top: 15%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contaner form {
+    width: 35%;
+    max-width: 600px;
+    padding: 30px 30px 30px;
+    background: #a38a5a;
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: center;
+}
+input {
+    border-radius: 4px;
+}
+button {
+    border-radius: 4px;
+}
+.dropdown {
+    border-radius: 4px;
+}
